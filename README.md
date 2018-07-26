@@ -34,7 +34,7 @@ I built a small library that will greatly help you in designing the material. Th
 }
 ```
 
-# XML simple
+# XML Simple
 
 ```xml
 
