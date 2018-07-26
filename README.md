@@ -33,3 +33,29 @@ I built a small library that will greatly help you in designing the material. Th
 	}
 }
 ```
+
+# Java Code Simple
+
+```java
+       final ExpandableCardView expandableCardView=findViewById(R.id.ecv2);
+
+        expandableCardView.setRtlDirection();
+        expandableCardView.setTitle("Profile");
+        expandableCardView.setIcon(R.drawable.ic_user);
+
+        expandableCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(expandableCardView.isExpanded()){
+                    expandableCardView.collapse();
+                    Toast.makeText(MainActivity.this, "Close", Toast.LENGTH_SHORT).show();
+
+                }
+                else{
+                    expandableCardView.expand();
+                    Toast.makeText(MainActivity.this, "Open", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+}
+```
