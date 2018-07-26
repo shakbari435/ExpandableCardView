@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.v7.widget.CardView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/default_vertical_padding"
+    android:paddingBottom="@dimen/default_vertical_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/viewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_card_height"
+        android:orientation="vertical"
+        android:gravity="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_card_height"
+            android:id="@+id/header"
+            android:gravity="right|center">
+
+            <!-- Rivedi effetto ripple -->
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:src="@drawable/arrow_down"/>
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingRight="10dp"
+                    android:text="سلام"
+
+                    android:layout_weight="0.5"
+                    android:maxLines="1"
+                    android:maxLength="39"
+                    android:textColor="@android:color/primary_text_light" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <ViewStub
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:id="@+id/viewStub"
+            android:inflatedId="@+id/innerView"/>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+
