@@ -34,6 +34,33 @@ I built a small library that will greatly help you in designing the material. Th
 }
 ```
 
+# XML simple
+
+```xml
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+        <com.phoenixdevs.ir.ExpandableCardView
+            android:id="@+id/ecv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            app:expandOnClick="true"
+	    app:title="Profile"
+            app:icon="@drawable/ic_contact"
+            app:inner_view="@layout/item_profile" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+```
+
 # Java Code Simple
 
 ```java
