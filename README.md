@@ -29,7 +29,7 @@ I built a small library that will greatly help you in designing the material. Th
 - Add the dependency
 ```java
   	dependencies {
-		implementation 'com.github.User:Repo:Tag'
+		    implementation 'com.github.shakbari435:ExpandableCardView:1.0'
 	}
 }
 ```
