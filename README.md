@@ -34,7 +34,7 @@ I built a small library that will greatly help you in designing the material. Th
 }
 ```
 
-# XML Simple
+# XML Sample
 
 ```xml
 
@@ -61,7 +61,7 @@ I built a small library that will greatly help you in designing the material. Th
     </android.support.v7.widget.LinearLayoutCompat>
 ```
 
-# Java Code Simple
+# Java Code Sample
 
 ```java
        final ExpandableCardView expandableCardView=findViewById(R.id.ecv2);
