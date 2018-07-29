@@ -143,6 +143,7 @@ public class ExpandableCardView extends LinearLayout {
 
         setInnerView(innerViewRes);
 
+
         containerView = findViewById(R.id.viewContainer);
 
         setElevation(Utils.convertDpToPixels(getContext(), 4));
@@ -293,6 +294,8 @@ public class ExpandableCardView extends LinearLayout {
         }
     }
 
+
+
     public void setRtlDirection(){
         LinearLayout header = findViewById(R.id.header);
         header.setLayoutDirection(LAYOUT_DIRECTION_RTL);
@@ -314,10 +317,12 @@ public class ExpandableCardView extends LinearLayout {
         arrowBtn.setLayoutParams(params2);
 
     }
-    private void setInnerView(int resId){
+    public  void setInnerView(int resId){
         ViewStub stub = findViewById(R.id.viewStub);
-        stub.setLayoutResource(resId);
-        innerView = stub.inflate();
+        if(resId!= View.NO_ID){
+            stub.setLayoutResource(resId);
+            innerView = stub.inflate();
+        }
     }
 
 
