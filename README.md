@@ -4,7 +4,7 @@
 I built a small library that will greatly help you in designing the material. Then download foolishly
 
 ## Demo
-<img src="http://phoenixdevs.ir/github/expandcardview.gif" height="600" width="350">
+<img src="https://raw.githubusercontent.com/shakbari435/ExpandableCardView/master/app/src/main/res/drawable/expandcardview.gif" height="600" width="350">
 
 # Usage
 
