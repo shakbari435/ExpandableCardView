@@ -1,7 +1,7 @@
 # ExpandableCardView
 
 
-I built a small library that will greatly help you in designing the material. Then download foolishly
+I built a small library that will greatly help you in designing the material... Then download foolishly
 
 ## Demo
 <img src="https://raw.githubusercontent.com/shakbari435/ExpandableCardView/master/app/src/main/res/drawable/expandcardview.gif" height="600" width="350">
